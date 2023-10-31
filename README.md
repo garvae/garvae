@@ -1,12 +1,10 @@
-<p style="text-align: center; border-bottom: 2px solid rgba(207, 207, 207, 0.4); width: 100%">
+<p align="center">
     <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-emoji-laptop.png?raw=true" alt="Garvae emoji greeting" width="200px" height="auto">
 </p> 
 
 
-<div style="font-size: 32px;">
-    <div style="font-size: 24px; font-weight: 600;">Hi, I'm</div>
-    <div style="font-size: 48px; font-weight: bold">Vova Garvae</div>
-</div>
+### Hi, I'm
+# Vova Garvae
 
 <br/>
 
@@ -14,9 +12,7 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 <br/>
 
-<div style="font-size: 32px;">
-    <p>💪 <span style="font-size: 32px; font-weight: bold"> Skills</span></p>
-</div>
+## 💪  Skills
 
 Group                 | Skills
 -------------------------|------
@@ -37,9 +33,7 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 <br/>
 
-<div style="font-size: 32px;">
-    <p>📌 <span style="font-size: 32px; font-weight: bold"> More about me</span></p>
-</div>
+## 📌 More about me
 
 <hr/>
 
@@ -87,14 +81,9 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 <hr/>
 
-
-
 <br/>
 
-
-<div style="font-size: 32px;">
-    <p>📞 <span style="font-size: 32px; font-weight: bold"> Get in touch</span></p>
-</div>
+## 📞 Get in touch
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)][linkedin] <br/>
 [![Facebook Badge](https://img.shields.io/badge/Facebook-0866FF?logo=facebook&logoColor=fff&style=flat)][facebook] <br/>
@@ -108,14 +97,14 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 </div>
 
 🌐 [**Contact page**][garvae]
-<br/>
-
 
 <br/>
 
-<div style="font-size: 32px;">
-    <p>🚀 <span style="font-size: 32px; font-weight: bold"> Mentoring</span></p>
-</div>
+<br/>
+
+
+## 🚀 Mentoring
+
 
 I train in-demand front-end professionals as quickly and efficiently as possible. Unlike popular courses, my training is truly individual. I care about your motivation, mental health and professional skills.
 
