@@ -1,11 +1,11 @@
-<p style="border-bottom: 2px solid rgba(207, 207, 207, 0.4); width: 100%">
+<p style="text-align: center; border-bottom: 2px solid rgba(207, 207, 207, 0.4); width: 100%">
     <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-emoji-laptop.png?raw=true" alt="Garvae emoji greeting" width="200px" height="auto">
 </p> 
 
 
-<div style="font-size: 2rem;">
-    <div style="font-size: 1.25rem; font-weight: 600;">Hi, I'm</div>
-    <div style="font-size: 3rem; font-weight: bold">Vova Garvae</div>
+<div style="font-size: 32px;">
+    <div style="font-size: 24px; font-weight: 600;">Hi, I'm</div>
+    <div style="font-size: 48px; font-weight: bold">Vova Garvae</div>
 </div>
 
 <br/>
@@ -14,8 +14,8 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 <br/>
 
-<div style="font-size: 2rem;">
-    <p>💪 <span style="font-size: 2rem; font-weight: bold"> Skills</span></p>
+<div style="font-size: 32px;">
+    <p>💪 <span style="font-size: 32px; font-weight: bold"> Skills</span></p>
 </div>
 
 Group                 | Skills
@@ -37,8 +37,8 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 <br/>
 
-<div style="font-size: 2rem;">
-    <p>📌 <span style="font-size: 2rem; font-weight: bold"> More about me</span></p>
+<div style="font-size: 32px;">
+    <p>📌 <span style="font-size: 32px; font-weight: bold"> More about me</span></p>
 </div>
 
 <hr/>
@@ -92,8 +92,8 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 <br/>
 
 
-<div style="font-size: 2rem;">
-    <p>📞 <span style="font-size: 2rem; font-weight: bold"> Get in touch</span></p>
+<div style="font-size: 32px;">
+    <p>📞 <span style="font-size: 32px; font-weight: bold"> Get in touch</span></p>
 </div>
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)][linkedin] <br/>
@@ -113,8 +113,8 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 <br/>
 
-<div style="font-size: 2rem;">
-    <p>🚀 <span style="font-size: 2rem; font-weight: bold"> Mentoring</span></p>
+<div style="font-size: 32px;">
+    <p>🚀 <span style="font-size: 32px; font-weight: bold"> Mentoring</span></p>
 </div>
 
 I train in-demand front-end professionals as quickly and efficiently as possible. Unlike popular courses, my training is truly individual. I care about your motivation, mental health and professional skills.
