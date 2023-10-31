@@ -2,10 +2,11 @@
     <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-emoji-laptop.png?raw=true" alt="Garvae emoji greeting" width="200px" height="auto">
 </p> 
 
----
 
-**Hi, I'm**
-# Vova Garvae
+<br/>
+<br/>
+
+# Hi, I'm Vova Garvae
 
 <br/>
 
