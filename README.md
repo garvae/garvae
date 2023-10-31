@@ -1,424 +1,129 @@
-
-<p align="center">
-    <img src="https://github.com/garvae/web-assets-generator/blob/master/assets/images/gh-cover.svg?raw=true" alt="web-assets-generator cover">
+<p style="border-bottom: 2px solid rgba(207, 207, 207, 0.4); width: 100%">
+    <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-emoji-laptop.png?raw=true" alt="Garvae emoji greeting" width="200px" height="auto">
 </p> 
 
-<div style="text-align: center; font-size: 2rem; display: flex; flex-direction: column">
+
+<div style="font-size: 2rem;">
     <div style="font-size: 1.25rem; font-weight: 600;">Hi, I'm</div>
     <div style="font-size: 3rem; font-weight: bold">Vova Garvae</div>
 </div>
 
+<br/>
 
-I'm a lead front-end developer and team leader with over 3 years of experience. I have visual design skills and tireless dedication to creating exceptional user experiences. I am passionate about creating a supportive and collaborative work environment that promotes success, growth, and mental health for all team members.
-
-
-Generate **all HTML meta tags**, **favicon bundle** and **other assets** for your web project. Simple. **With just one tool**.
+I am a leading front-end developer and team leader with over 3 years of experience. For me, not only the code is important, but the success of the entire project, business profit, user convenience and the mental health of the team.
 
 <br/>
 
----
-
-<p align="center">
-    <img src="https://github.com/garvae/web-assets-generator/blob/master/assets/images/gh-cover.svg?raw=true" alt="web-assets-generator cover" width="100%" height="auto">
-</p> 
-
----
-
-## ✨ What can be generated?
-
-### Common WEB files
-
-✔️ index.html with (almost) all [HTML \<meta> Tags][w3s-meta] <br/>
-✔️ [Favicon](https://www.seoptimer.com/blog/what-is-a-favicon/) bundle <br/>
-✔️ LICENCE <br/>
-✔️ [browserconfig.xml](https://www.computer-dictionary-online.org/definitions-b/browserconfig-xml.html) <br/>
-✔️ [manifest.json](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json) <br/>
-✔️ [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro) <br/>
-✔️ [search.xml](https://developer.mozilla.org/en-US/docs/Web/OpenSearch#opensearch_description_file) <br/>
-✔️ [site.webmanifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) <br/>
-
-### Frameworks files
-
-✔️ [.eslintignore](https://eslint.org/docs/latest/use/configure/ignore#the-eslintignore-file) <br/>
-✔️ [.prettierignore](https://prettier.io/docs/en/ignore.html#ignoring-files-prettierignore) <br/>
-
-<br/>
-
-> [**web-assets-generator**][repo] can generate different files and meta tags. 
-> Keeping all the settings up to date is quite difficult,
-> so if you find a bug, please open an [issue] or make a [pull request][pr] 🙏
-
-
-<br/>
-
-## 💪 Motivation
-
-Developers and SEO specialists often need to deal with the description of [HTML \<meta> Tags][w3s-meta] 
-and the generation of favicon image bundles. 
-It is convenient when **all these tasks are solved by one simple tool**.
-This is why the [**web-assets-generator**][repo] was created.
-This tool collects all (or almost all) relevant [HTML \<meta> Tags][w3s-meta],
-and also generates the most complete bundle of favicon-images 
-using 2 great tools under the hood ([realfavicongenerator] & [pwa-asset-generator]),
-as well as some custom solutions.
-As a result, the user receives a generated bundle of the main files used in web projects.
-
-<br/>
-
-## 🚀 Usage
-
-1. Create a config file for the [web-assets-generator][repo]. 
- 
-> The file should have `.json` extension and its name should be `wag.config.json` by default.
-> If you want to name the config file differently, then you need to specify your file in the `СLI` command
-
-Since the [web-assets-generator][repo] tool can generate different combinations of assets,
-you need to specify at least one generated asset in the config.
-More details about the config are described in the section (TODO: SECTION).
-But one of the simplest options is below:
-
-`wag.config.json`
-```json
-{
-  "assets": {
-    "favicon": {
-      "input": "./temp-images/input-favicon.png"
-    }
-  }
-}
-```
-
-> The above config will only generate a favicon bundle.
-> The `input` parameter specifies the path to the source file from which the remaining images will be generated
-
-2. Run [**npx**][npx]-command:
-
-If you want to confirm installation of the [web-assets-generator][repo] manually:
-
-```shell
-npx @garvae/web-assets-generator
-```
-
-If you want the installation to happen automatically:
-
-```shell
-npx --yes @garvae/web-assets-generator
-```
-
-If you want to specify the path to your config file:
-
-```shell
-npx --yes @garvae/web-assets-generator ./any-folder/config.json
-```
-
-3. Wait patiently for assets generation to complete. The generated files will be located in the path specified in the config or in the default `./web-assets-generator` directory.
-
-
-<br/>
-
-## 💎 Demo
-
-1. Download [demo pack](https://github.com/garvae/web-assets-generator/blob/master/demo/demo.zip?raw=true) and extract it
-2. Open the console and go to the directory with the files from the `demo pack`
-3. Follow the instructions for steps #2 and #3 from the 🚀 [**Usage**](https://github.com/garvae/web-assets-generator/tree/master#-usage) section above.
-
-<br/>
-
-## 🛠 Config
-
-### Complete config structure and values types
-
-To begin with, I will show you the full version of the config without any comments or explanations,
-just types of values.
-After this there will be a detailed description of all config parameters.
-
-```json
-{
-  "assets": {
-    "browserConfig": "boolean",
-    "favicon": { "input": "string" },
-    "framework": {
-      "eslintignore": "boolean",
-      "prettierignore": "boolean"
-    },
-    "indexHtml": {
-      "metaCoverSocials": "string",
-      "preLoader": "boolean",
-      "tokensMeta": {
-        "appleMobileWebAppCapable": "string",
-        "appleMobileWebAppStatusBarStyle": "string",
-        "appleTouchFullscreen": "string",
-        "applicationName": "string",
-        "description": "string",
-        "formatDetection": "string",
-        "htmlLang": "string",
-        "linkRelSearchTitle": "string",
-        "maskIcon": "string",
-        "mobileWebAppCapable": "string",
-        "msapplicationNavbuttonColor": "string",
-        "msapplicationStarturl": "string",
-        "msapplicationTileColor": "string",
-        "ogDescription": "string",
-        "ogImageAlt": "string",
-        "ogImageHeight": "string",
-        "ogImageType": "string",
-        "ogImageWidth": "string",
-        "ogLocale": "string",
-        "ogSiteName": "string",
-        "ogTitle": "string",
-        "ogType": "string",
-        "ogUrl": "string",
-        "owner": "string",
-        "replyTo": "string",
-        "robots": "string",
-        "themeColor": "string",
-        "title": "string",
-        "twitterAppIdGoogleplay": "string",
-        "twitterAppIdIpad": "string",
-        "twitterAppIdIphone": "string",
-        "twitterAppNameGoogleplay": "string",
-        "twitterAppNameIpad": "string",
-        "twitterAppNameIphone": "string",
-        "twitterAppUrlGoogleplay": "string",
-        "twitterAppUrlIpad": "string",
-        "twitterAppUrlIphone": "string",
-        "twitterCard": "string",
-        "twitterCreator": "string",
-        "twitterCreatorId": "string",
-        "twitterDescription": "string",
-        "twitterImage": "string",
-        "twitterImageAlt": "string",
-        "twitterPlayer": "string",
-        "twitterPlayerHeight": "string",
-        "twitterPlayerStream": "string",
-        "twitterPlayerWidth": "string",
-        "twitterSite": "string",
-        "twitterSiteId": "string",
-        "twitterTitle": "string",
-        "urlRSSFeed": "string",
-        "viewport": "string"
-      }
-    },
-    "license": "boolean",
-    "manifest": "boolean",
-    "robots": "boolean",
-    "searchXml": "boolean"
-  },
-  "outputDir": "string",
-  "tokensMain": {
-    "appPlaceholderBackgroundColor": "string",
-    "author": "string",
-    "authorAccountTwitter": "string",
-    "authorEmail": "string",
-    "authorUrl": "string",
-    "description": "string",
-    "language": "string",
-    "msapplicationTileColor": "string",
-    "name": "string",
-    "siteUrl": "string",
-    "startUrl": "string",
-    "themeColor": "string",
-    "title": "string"
-  }
-}
-```
-
-<br/>
-
-### Config parameters with descriptions and default values
-
-
-```text
-{
-  "assets": { // Main assets parameters
-    "browserConfig": false, // Should the "browserconfig.xml" file be generated
-    "favicon": { // Favicon parameters
-      "input": "" // Path to your favicon source file
-    },
-    "framework": { // Frameworks assets
-      "eslintignore": false, // Should the ".eslintignore" file be generated
-      "prettierignore": false // Should the ".prettierignore" file be generated
-    },
-    "indexHtml": { // HTML parameters
-      "metaCoverSocials": "", // Source file path for various social media tags using images
-      "preLoader": false, // Do you want to include a simple "pre-loader" into generated "index.html"
-      "tokensMeta": { // HTML meta tags
-        "appleMobileWebAppCapable": "", // Used by Apple devices to specify whether the webpage can be opened in full-screen mode on iOS devices
-        "appleMobileWebAppStatusBarStyle": "", // The appearance of the status bar in full-screen mode on iOS devices. Variants: Default / Black / black-translucent Read more: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
-        "appleTouchFullscreen": "", // Used by Apple devices to specify that the webpage is optimized for full-screen viewing
-        "applicationName": "", // The name of the web app.
-        "description": "", // A short description of the page (for search engine optimization (SEO) purposes) that may be displayed in search engine results
-        "formatDetection": "", // Disable automatic detection and formatting of telephone numbers by mobile devices. This can be useful if you don't want phone numbers on your website to be clickable and initiate phone calls.
-        "htmlLang": "en-US", // The language of the element's content.
-        "linkRelSearchTitle": "", // This tag is used to specify the URL of an OpenSearch description document, which provides information about the site's search capabilities.
-        "mobileWebAppCapable": "", // Enables a web application to run in full-screen mode on Android devices.
-        "msapplicationNavbuttonColor": "", // The color for the navigation bar in the Windows Edge browser.
-        "msapplicationStarturl": "", // The URL to launch when the web app is pinned to the Windows Start screen.
-        "msapplicationTileColor": "", // The background color for a tile on the Windows Start screen.
-        "ogDescription": "", // Provides a description of the content of the page when shared on social media platforms.
-        "ogImageAlt": "", // Provides alternative text for the image that is shared on social media platforms.
-        "ogImageHeight": "", // The height of the image that will be displayed when the page is shared on social media platforms.
-        "ogImageType": "", // The type of the image that will be displayed when the page is shared on social media platforms.
-        "ogImageWidth": "", // The width of the image that will be displayed when the page is shared on social media platforms.
-        "ogLocale": "", // The locale of the page.
-        "ogSiteName": "", // The name of the website or application.
-        "ogTitle": "", // The title of the page that will be displayed when the page is shared on social media platforms.
-        "ogType": "", // The type of content on the page.
-        "ogUrl": "", // The URL of the page that will be shared on social media platforms.
-        "owner": "", // The name or organization that owns the website.
-        "replyTo": "", // An email address that can be used for replying to the content on a web page.
-        "robots": "", // Instructs search engine crawlers on whether to index and follow the links on a web page.
-        "themeColor": "", // The default color for the browser's theme.
-        "title": "", // The title that will be displayed when the web app is added to the home screen on iOS devices.
-        "twitterAppIdGoogleplay": "", // The ID of the Android app associated with the website.
-        "twitterAppIdIpad": "", // The ID of the iPad app associated with the website.
-        "twitterAppIdIphone": "", // The ID of the iPhone app associated with the website.
-        "twitterAppNameGoogleplay": "", // The name of the Android app associated with the website.
-        "twitterAppNameIpad": "", // The name of the iPad app associated with the website.
-        "twitterAppNameIphone": "", // The name of the iPhone app associated with the website.
-        "twitterAppUrlGoogleplay": "", // The URL of the Android app associated with the website.
-        "twitterAppUrlIpad": "", // The URL of the iPad app associated with the website.
-        "twitterAppUrlIphone": "", // The URL of the iPhone app associated with the website.
-        "twitterCard": "", // The type of Twitter card to use for the website.
-        "twitterCreator": "", // The Twitter username of the content creator.
-        "twitterCreatorId": "", // The numeric ID of the content creator's Twitter account.
-        "twitterDescription": "", // Specifies a brief description of the website's content for use on Twitter.
-        "twitterImage": "", // The URL of the main image to use for Twitter sharing.
-        "twitterImageAlt": "", // Specifies alternative text for the main Twitter image.
-        "twitterPlayer": "", // The HTTPS URL of the player iframe that Twitter can use to display media in a tweet.
-        "twitterPlayerHeight": "", // The height of the player iframe specified in the twitter:player tag.
-        "twitterPlayerStream": "", // The HTTPS URL of the raw video or audio stream to play within the Twitter app.
-        "twitterPlayerWidth": "", // The width of the player iframe specified in the twitter:player tag.
-        "twitterSite": "", // The Twitter username of the website owner.
-        "twitterSiteId": "", // The numeric ID of the website owner's Twitter account.
-        "twitterTitle": "", // The title of the webpage as it should appear when shared on Twitter.
-        "urlRSSFeed": "", // This tag is used to provide a link to an RSS feed for the site.
-        "viewport": "" // The viewport width and initial scale for the web page, and disables the shrinking of the page to fit the screen
-      }
-    },
-    "license": false, // Should the "LICENCE" file be generated
-    "manifest": false, // Should the "manifest.json" file be generated
-    "robots": false, // Should the "robots.txt" file be generated
-    "searchXml": false // Should the "search.xml" file be generated
-  },
-  "outputDir": "web-assets-generator", // web-assets-generator output directory
-  "tokensMain": { // Common tokens used in different web-assets-generator functions
-    "appPlaceholderBackgroundColor": "", // Defines a placeholder background color for the application page to display before its stylesheet is loaded
-    "author": "", // Project author name
-    "authorAccountTwitter": "", // Project author twitter account
-    "authorEmail": "", // Project author e-mail
-    "authorUrl": "", // Project author contact web-page
-    "description": "", // Project description
-    "language": "en-US", // A language tag specifying the primary language of the manifest's values
-    "msapplicationTileColor": "", // The background color for a tile on the Windows Start screen
-    "name": "", // Project name
-    "siteUrl": "", // Project url
-    "startUrl": "", // Represents the start URL of the web application — the preferred URL that should be loaded when the user launches the web application (e.g., when the user taps on the web application's icon from a device's application menu or homescreen)
-    "themeColor": "", // App preferred theme color
-    "title": "" // App title
-  }
-}
-```
-
-<br/>
-
-## 📄 HTML meta tags
-
-[web-assets-generator][repo] generates all (or almost all) [HTML meta tags][w3s-meta] for your web projects.
-
-For your convenience, you can find descriptions of meta tags in the comments in the `index.html` file.
-
-At this point, you can define values for meta tags in the `wag.config.json` config.
-Regardless of the presence of values in the config, all meta tags in the `index.html` file will be generated.
-However, those meta tags for which values will not be passed will be commented out.
-
-<br/>
-
-## 📦 Favicon bundle
-
-[web-assets-generator][repo] generates the most complete bundle of favicon-images
-using 2 great tools under the hood ([realfavicongenerator] & [pwa-asset-generator]).
-
-At the moment, [web-assets-generator][repo] does not provide the ability to customize the settings of these tools, however, this may be implemented in the future.
-
-There is a lot of information on the topic of favicons on the Internet,
-but collecting all this information into a single standardized document is quite difficult.
-However, [web-assets-generator][repo] collects the most optimal (in the opinion of the author)
-bundle of favicon images and immediately inserts the corresponding tags into the index.html.
-If you think that some favicons are unnecessary, or incorrect,
-or there is not enough of them, and I will be glad to see your [issues][issue] or [pull requests][pr] 🙏.
-
-<br/>
-
-## ✨ Future plans
-
-✨️ Excluding meta tags not passed in the config <br/>
-✨️ Receiving reviews from SEO specialists and improving generated meta tags <br/>
-✨️ Customizable `index.html` minifier <br/>
-✨️ Config for the [realfavicongenerator] <br/>
-✨️ Config for the [pwa-asset-generator] <br/>
-✨️ More files for frameworks <br/>
-
-<br/>
-
-## 🤝 Contributions
-
-🤝 Contributions, issues and feature requests are welcome! <br/>
-Feel free to check [issues page][issue] and [pull request page][pr].
-
-❤️ **Give a** ⭐ **if you like this project!**
-
-<br/>
-
-## 📞 Contact me
-
-### 🌐 [Contact page][garvae]
-
-### 🔳 QR code
-
-<div style="background-color: white; display: inline-block; margin-top: 2em; margin-bottom: 2em">
-    <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-contacts.png?raw=true" alt="contact me" width="300px" height="300px">
+<div style="font-size: 2rem;">
+    <p>💪 <span style="font-size: 2rem; font-weight: bold"> Skills</span></p>
 </div>
 
-### 🔗 Links
-
-- [**E-mail**][email]
-- [**Telegram**][telegram]
-- [**Facebook**][facebook]
-- [**Instagram**][instagram]
-- [**LinkedIn**][linkedin]
-- [**GitHub**][github]
+Group                 | Skills
+-------------------------|------
+Main stack               | ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat) ![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat) ![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat) ![Next.js Badge](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=flat) ![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat) ![Redux Badge](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=fff&style=flat) ![MobX Badge](https://img.shields.io/badge/MobX-F95?logo=mobx&logoColor=fff&style=flat)
+Styling               | ![Sass Badge](https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff&style=flat) ![styled-components Badge](https://img.shields.io/badge/styled--components-DB7093?logo=styledcomponents&logoColor=fff&style=flat) ![Ant Design Badge](https://img.shields.io/badge/Ant%20Design-0170FE?logo=antdesign&logoColor=fff&style=flat) ![Material Design Badge](https://img.shields.io/badge/Material%20Design-757575?logo=materialdesign&logoColor=fff&style=flat) ![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff&style=flat)  ![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat) ![CSS Modules Badge](https://img.shields.io/badge/CSS%20Modules-000?logo=cssmodules&logoColor=fff&style=flat)
+Requests               |  ![GraphQL Badge](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=fff&style=flat) ![Apollo GraphQL Badge](https://img.shields.io/badge/Apollo%20GraphQL-311C87?logo=apollographql&logoColor=fff&style=flat) ![Axios Badge](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=flat) ![REST API Badge](https://img.shields.io/badge/-REST%20API-darkslateblue?style=flat&logoColor=white)
+CI / CD                  | ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=flat) ![GitHub Actions Badge](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=flat) ![GitLab Badge](https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=GitLab&logoColor=fff&style=flat)
+Compiling & Bundling                | ![Webpack Badge](https://img.shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=000&style=flat) ![rollup.js Badge](https://img.shields.io/badge/rollup.js-EC4A3F?logo=rollupdotjs&logoColor=fff&style=flat) ![gulp Badge](https://img.shields.io/badge/gulp-CF4647?logo=gulp&logoColor=fff&style=flat) ![Babel Badge](https://img.shields.io/badge/Babel-F9DC3E?logo=babel&logoColor=000&style=flat)
+Design & Graphics                 | ![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat) ![Adobe Illustrator Badge](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?logo=adobeillustrator&logoColor=fff&style=flat) ![Adobe Photoshop Badge](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=adobephotoshop&logoColor=fff&style=flat) ![Adobe Lightroom Badge](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?logo=adobelightroom&logoColor=fff&style=flat)
+UI / UX                 | ![Design Principles basics Badge](https://img.shields.io/badge/-Web%20Accessibility%20Initiative%20(WAI)-e63946?style=flat&logoColor=white) ![Typography basics Badge](https://img.shields.io/badge/-Design%20Principles%20basics-023e7d?style=flat&logoColor=white) ![Coloring basics Badge](https://img.shields.io/badge/-Typography%20basics-002855?style=flat&logoColor=white) ![Web Accessibility Initiative (WAI) Badge](https://img.shields.io/badge/-Coloring%20basics-001845?style=flat&logoColor=white)
+Code style                 |  ![ESLint Badge](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat) ![Prettier Badge](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=fff&style=flat) ![stylelint Badge](https://img.shields.io/badge/stylelint-263238?logo=stylelint&logoColor=fff&style=flat)  ![Husky.JS Badge](https://img.shields.io/badge/🐶%20Husky-lightgrey?logoColor=000&style=flat) ![Husky.JS Badge](https://img.shields.io/badge/Pre&#8211;Commit-lightgrey?logoColor=000&style=flat)
+Testing                |   ![Jest Badge](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff&style=flat) ![Testing Library Badge](https://img.shields.io/badge/Testing%20Library-E33332?logo=testinglibrary&logoColor=fff&style=flat)
+Browser                |    ![Browser API Badge](https://img.shields.io/badge/-Browser%20API-2e5cb8?style=flat&logoColor=white) ![WebExtensions API Badge](https://img.shields.io/badge/-WebExtensions%20API-343434?style=flat&logoColor=white)
+Version control                |     ![Git Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=flat) ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat) ![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=fff&style=flat)
+SEO and Optimization              |      ![Meta Tags Badge](https://img.shields.io/badge/Meta%20Tags-0467DF?logoColor=fff&style=flat) ![Lighthouse Badge](https://img.shields.io/badge/Lighthouse-F44B21?logo=lighthouse&logoColor=fff&style=flat)
+Package management              | ![npm Badge](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=flat) ![Yarn Badge](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat)
+Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=000&style=flat)
 
 <br/>
 
-## 🚀 Mentoring
+<div style="font-size: 2rem;">
+    <p>📌 <span style="font-size: 2rem; font-weight: bold"> More about me</span></p>
+</div>
 
-**If you want to grow** 🚀 **fast in front-end development - [contact me!][garvae]**  🙋‍♂
+<hr/>
+
+<details>
+  <summary>🏆 <b>Courses certificates</b></summary>
+
+**Managment**
+
+🏆 [Project management in atypical conditions](https://www.udemy.com/certificate/UC-2ea90f10-8e16-42c4-a498-d9b0c4428918/) <br/>
+
+🏆 [How to be a great manager and not to go crazy](https://www.udemy.com/certificate/UC-8075f7aa-7e90-45bd-a0b6-45a338dc3ec5/) <br/>
+
+🏆 [Agile Project Management fundamentals for IT Outsource](https://www.udemy.com/certificate/UC-694ae87e-c752-4a76-b350-c1900d9925c5/) <br/>
+
+**Backend**
+
+🏆 [NestJS - from scratch, modern backend in TypeScript and Node JS](https://www.udemy.com/certificate/UC-517ca7d2-862d-436e-9a8e-b530bf8f570a/) <br/>
+
+🏆 [Node JS. Practical course. (Mongo, GraphQL, MySQL, Express)](https://www.udemy.com/certificate/UC-283aa7c7-64bc-49dd-8337-71438e221653/) <br/>
+
+**Other**
+
+🏆 [Work remotely for foreign companies. Professions. Immigration](https://drive.google.com/file/d/1pwfn36hKnN6L5ZKZLRf01MpeDQekg9g_/view?usp=sharing) <br/>
+
+</details>
+
+<hr/>
+
+<details>
+  <summary>✨ <b>Goals for the future</b></summary>
+
+**Courses and trainings**
+
+✨ Management of distributed teams <br/>
+✨ Mental health of distributed team members <br/>
+✨ Buyer psychology <br/>
+✨ Marketing in digital business <br/>
+
+**Languages**
+
+✨ Improve my English <br/>
+
+
+</details>
+
+<hr/>
+
+
 
 <br/>
 
-## 📄 License
 
-[See license in the "**LICENCE**" file][license]
+<div style="font-size: 2rem;">
+    <p>📞 <span style="font-size: 2rem; font-weight: bold"> Get in touch</span></p>
+</div>
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)][linkedin] <br/>
+[![Facebook Badge](https://img.shields.io/badge/Facebook-0866FF?logo=facebook&logoColor=fff&style=flat)][facebook] <br/>
+[![Telegram Badge](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=fff&style=flat)][telegram] <br/>
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=fff&style=flat)][instagram] <br/>
+[![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)][email] <br/>
+[![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)][github] <br/>
+
+<div style="background-color: white; display: inline-block; margin-top: 2em; margin-bottom: 2em">
+    <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-contacts.png?raw=true" alt="contact me" width="200px" height="200px">
+</div>
+
+🌐 [**Contact page**][garvae]
+<br/>
+
+
+<br/>
+
+<div style="font-size: 2rem;">
+    <p>🚀 <span style="font-size: 2rem; font-weight: bold"> Mentoring</span></p>
+</div>
+
+I train in-demand front-end professionals as quickly and efficiently as possible. Unlike popular courses, my training is truly individual. I care about your motivation, mental health and professional skills.
+
+**If you want to grow** 🚀 **fast in front-end development ➜ [contact me!][garvae]**  🙋‍♂
 
 [//]: # (------------------------------------------------------------------)
 [//]: # (------------------------- Document links -------------------------)
 [//]: # (------------------------------------------------------------------)
-
-[//]: # (--------------------------- repo links ---------------------------)
-
-[npx]:https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/
-[pwa-asset-generator]:https://github.com/elegantapp/pwa-asset-generator
-[realfavicongenerator]:https://realfavicongenerator.net/
-[w3s-meta]:https://www.w3schools.com/tags/tag_meta.asp
-
-
-[//]: # (-------------------------- common links --------------------------)
-
-[issue]:https://github.com/garvae/web-assets-generator/issues
-[pr]:https://github.com/garvae/web-assets-generator/pulls
-[repo]:https://github.com/garvae/web-assets-generator
-[license]:https://github.com/garvae/web-assets-generator/blob/master/LICENSE?raw=true
 
 [//]: # (---------------------------- contacts ----------------------------)
 
