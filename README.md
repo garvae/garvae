@@ -35,7 +35,57 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 <br/>
 
-## 📌 More about me
+
+## 📑 More about me
+
+<details>
+  <summary>📌 <b>Open source</b></summary>
+
+<br/>
+
+🚀 **Active**
+
+<br/>
+
+<a href="https://github.com/garvae/web-assets-generator">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=web-assets-generator&theme=dark" />
+</a> 
+
+<a href="https://github.com/garvae/eslint-plugin-comments">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=eslint-plugin-comments&theme=dark" />
+</a> 
+
+<a href="https://github.com/garvae/react-pie-donut-chart">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-pie-donut-chart&theme=dark" />
+</a> 
+
+<a href="https://github.com/garvae/svg-jest">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=svg-jest&theme=dark" />
+</a> 
+
+<br/>
+
+⛔ **Deprecated**
+
+<br/>
+
+<a href="https://github.com/garvae/react-waving-flag">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-waving-flag&theme=dark" />
+</a> 
+
+<a href="https://github.com/garvae/ChamelTone">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=ChamelTone&theme=dark" />
+</a> 
+
+<a href="https://github.com/garvae/react-pie-chart">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-pie-chart&theme=dark" />
+</a> 
+
+<br/>
+
+<br/>
+
+</details>
 
 <details>
   <summary>🏆 <b>Courses certificates</b></summary>
