@@ -39,6 +39,52 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 ## 📑 More about me
 
 <details>
+  <summary>💻 <b>The way I work</b></summary>
+
+- I lead teams, mentor front-end developers, build architecture, improve business processes, develop and optimize front-end.
+- I really love to deal with large-scale and complex commercial projects, build workflows, link front / back / lead design / managers and other teammates into a single team.
+- I understand graphic design, and I know what design should and should not be for optimal UX, performance, visualization and accessibility of the UI. A good frontend starts with good design and a detailed UI kit. «It's cheaper to make good design than bad code».
+- I document complex sections of the project and follow the code-style, fine-tune linters, write code-style requirements. I demand code-style compliance from team members.
+- I write tests because they are important and help a lot in development.
+- I work on small open-source projects, for example: @garvae/react-pie-donut-chart.
+- In my own pet projects, I deployed simple servers on NGINX, worked with mongodb and postgresql.
+- I took courses on both front-end and back-end (Node.js, Nest.js), design and management.
+
+<br/>
+
+</details>
+
+<details>
+  <summary>🙏 <b>My vision</b></summary>
+
+What important in work
+
+- Work/life balance
+- Mental health
+- Openness and communication
+- We must do our part to protect our beautiful Planet and all its inhabitants
+- We must contribute to the development of society and help those in need
+- We must be responsible and think about the future
+
+What important in projects
+
+- The most modern projects should have localization and dark mode
+- Any project must be accessible to users with disabilities
+- Humanity has a long history of art, so we can and should create beauty
+- We must meet business goals, provide a great user experience, and maintain the mental and physical health of team members
+
+What important in code
+
+- Tests
+- Code-style
+- Documentation
+
+<br/>
+
+</details>
+
+
+<details>
   <summary>📌 <b>Open source</b></summary>
 
 <br/>
