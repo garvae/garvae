@@ -2,8 +2,9 @@
     <img src="https://github.com/garvae/assets/blob/master/assets/img/garvae-emoji-laptop.png?raw=true" alt="Garvae emoji greeting" width="200px" height="auto">
 </p> 
 
+---
 
-### Hi, I'm
+**Hi, I'm**
 # Vova Garvae
 
 <br/>
@@ -35,8 +36,6 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 ## 📌 More about me
 
-<hr/>
-
 <details>
   <summary>🏆 <b>Courses certificates</b></summary>
 
@@ -60,7 +59,6 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 </details>
 
-<hr/>
 
 <details>
   <summary>✨ <b>Goals for the future</b></summary>
@@ -78,8 +76,6 @@ Useful platforms              | ![Firebase Badge](https://img.shields.io/badge/F
 
 
 </details>
-
-<hr/>
 
 <br/>
 
