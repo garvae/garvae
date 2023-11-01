@@ -48,6 +48,8 @@ Version control                |     ![Git Badge](https://img.shields.io/badge/G
 <details>
   <summary>🚀 <b>My way</b></summary>
 
+<br/>
+
 > I hope you, like me, played the [Sinatra song](https://youtu.be/qQzdAsjWGPg?si=V1R3snRA9dFshpLm) 🎵 in your head and sang “MYYYYY WAAAAAY”
 
 
@@ -74,6 +76,8 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 <details>
   <summary>💻 <b>My work</b></summary>
 
+<br/>
+
 💻 _I lead teams, mentor front-end developers, build architecture, improve business processes, develop and optimize front-end._ <br/>
 💻 _I really love to deal with large-scale and complex commercial projects, build workflows, link front / back / lead design / managers and other teammates into a single team._ <br/>
 💻 _I like to look for solutions to confusing problems and sometimes answer questions on [StackOverflow]._ <br/>
@@ -91,6 +95,8 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 [//]: # (🙏 My vision)
 <details>
   <summary>🙏 <b>My vision</b></summary>
+
+<br/>
 
 **What important in work**
 
@@ -122,6 +128,8 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 [//]: # (📌 Open source)
 <details>
   <summary>📌 <b>Open source</b></summary>
+
+<br/>
 
 <br/>
 
@@ -174,6 +182,8 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 <details>
   <summary>💎 <b>StackOverflow</b></summary>
 
+<br/>
+
 _I just want to note that the [StackOverflow] platform has made a huge contribution to my development. The community on this platform has given me answers, inspired and supported me throughout my career. Thanks to Jeff Atwood and Joel Spolsky and the entire IT community. I also leave answers to those questions that have not been answered before on StackOverflow, or in answers that are already outdated. I like to help other developers the same way other developers have helped and are helping me._ 🙏
 
 <br/>
@@ -184,6 +194,8 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 [//]: # (🏆 Courses certificates)
 <details>
   <summary>🏆 <b>Courses certificates</b></summary>
+
+<br/>
 
 **Managment**
 
@@ -210,6 +222,8 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 [//]: # (🎓 Education)
 <details>
   <summary>🎓 <b>Education</b></summary>
+
+<br/>
 
 🎓 **Master** degree 
 
@@ -243,6 +257,8 @@ _Russian University of Economics. G.V. Plekhanov, Moscow_ <br/>
 [//]: # (✨ Goals for the future)
 <details>
   <summary>✨ <b>Goals for the future</b></summary>
+
+<br/>
 
 **Courses and trainings**
 
