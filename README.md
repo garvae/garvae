@@ -79,13 +79,21 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 <br/>
 
 💻 _I lead teams, mentor front-end developers, build architecture, improve business processes, develop and optimize front-end._ <br/>
+
 💻 _I really love to deal with large-scale and complex commercial projects, build workflows, link front / back / lead design / managers and other teammates into a single team._ <br/>
+
 💻 _I like to look for solutions to confusing problems and sometimes answer questions on [StackOverflow]._ <br/>
+
 💻 _I understand graphic design, and I know what design should and should not be for optimal UX, performance, visualization and accessibility of the UI. A good frontend starts with good design and a detailed UI kit. `«It's cheaper to make good design than bad code»`._ <br/>
+
 💻 _I document complex sections of the project and follow the code-style, fine-tune linters, write code-style requirements. I demand code-style compliance from team members._ <br/>
+
 💻 _I write tests because they are important and help a lot in development._ <br/>
+
 💻 _In my own pet projects, I deployed simple servers on `NGINX`, worked with `mongodb` and `postgresql`._ <br/>
+
 💻 _I took courses on both front-end and back-end (`Node.js`, `Nest.js`), design and management._ <br/>
+
 
 <br/>
 
@@ -100,25 +108,38 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 
 **What important in work**
 
-🙏 _Work / life balance_ <br/> 
-🙏 _Mental health_ <br/> 
-🙏 _Openness and communication_ <br/> 
-🙏 _We must do our part to protect our beautiful Planet and all its inhabitants_ <br/> 
-🙏 _We must contribute to the development of society and help those in need_ <br/> 
-🙏 _We must be responsible and think about the future_ <br/> 
+🙏 _Work / life balance_ <br/>
+
+🙏 _Mental health_ <br/>
+
+🙏 _Openness and communication_ <br/>
+
+🙏 _We must do our part to protect our beautiful Planet and all its inhabitants_ <br/>
+
+🙏 _We must contribute to the development of society and help those in need_ <br/>
+
+🙏 _We must be responsible and think about the future_ <br/>
+
 
 **What important in projects**
 
 🙏 _The most modern projects should have localization and dark mode_ <br/>
+
 🙏 _Any project must be accessible to users with disabilities_ <br/>
+
 🙏 _Humanity has a long history of art, so we can and should create beauty_ <br/>
+
 🙏 _We must meet business goals, provide a great user experience, and maintain the mental and physical health of team members_ <br/>
+
 
 **What important in code**
 
 🙏 _Tests_ <br/>
+
 🙏 _Code-style_ <br/>
+
 🙏 _Documentation_ <br/>
+
 
 <br/>
 
@@ -141,17 +162,27 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
   <img alt="Project by @garvae - web-assets-generator" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=web-assets-generator&theme=dark" />
 </a> 
 
+<br/>
+
 <a href="https://github.com/garvae/eslint-plugin-comments">
   <img alt="Project by @garvae - eslint-plugin-comments" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=eslint-plugin-comments&theme=dark" />
 </a> 
+
+<br/>
 
 <a href="https://github.com/garvae/react-pie-donut-chart">
   <img alt="Project by @garvae - react-pie-donut-chart" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-pie-donut-chart&theme=dark" />
 </a> 
 
+<br/>
+
 <a href="https://github.com/garvae/svg-jest">
   <img alt="Project by @garvae - svg-jest" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=svg-jest&theme=dark" />
 </a> 
+
+<br/>
+
+<br/>
 
 <br/>
 
@@ -163,9 +194,13 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
   <img alt="Project by @garvae - react-waving-flag" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-waving-flag&theme=dark" />
 </a> 
 
+<br/>
+
 <a href="https://github.com/garvae/ChamelTone">
   <img alt="Project by @garvae - ChamelTone" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=ChamelTone&theme=dark" />
 </a> 
+
+<br/>
 
 <a href="https://github.com/garvae/react-pie-chart">
   <img alt="Project by @garvae - react-pie-chart" src="https://github-readme-stats.vercel.app/api/pin/?username=garvae&repo=react-pie-chart&theme=dark" />
@@ -205,11 +240,15 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 
 🏆 [_Agile Project Management fundamentals for IT Outsource_](https://www.udemy.com/certificate/UC-694ae87e-c752-4a76-b350-c1900d9925c5/) <br/>
 
+<br/>
+
 **Backend**
 
 🏆 [_NestJS - from scratch, modern backend in TypeScript and Node JS_](https://www.udemy.com/certificate/UC-517ca7d2-862d-436e-9a8e-b530bf8f570a/) <br/>
 
 🏆 [_Node JS. Practical course. (Mongo, GraphQL, MySQL, Express)_](https://www.udemy.com/certificate/UC-283aa7c7-64bc-49dd-8337-71438e221653/) <br/>
+
+<br/>
 
 **Other**
 
@@ -227,13 +266,13 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 
 🎓 **Master** degree 
 
-<sub><sup>Field of study</sup></sub> <br/>
+<small>Field of study</small> <br/>
 _Economics of small and medium-sized businesses_ <br/>
 
-<sub><sup>University name</sup></sub> <br/>
+<small>University name</small> <br/>
 [Institute of International Law and Economics. A.S. Griboedova, Moscow](https://www.iile.ru/contacts/) <br/>
 
-<sub><sup>GPA</sup></sub> <br/>
+<small>GPA</small> <br/>
 **4.5** <br/>
 
 
@@ -241,13 +280,13 @@ _Economics of small and medium-sized businesses_ <br/>
 
 🎓 **Bachelor** degree
 
-<sub><sup>Field of study</sup></sub> <br/>
+<small>Field of study</small> <br/>
 _Russian University of Economics. G.V. Plekhanov, Moscow_ <br/>
 
-<sub><sup>University name</sup></sub> <br/>
+<small>University name</small> <br/>
 [Economics and law, Economics of enterprises and organizations](https://www.рэу.рф/education/ob-universitete/kontaktyi) <br/>
 
-<sub><sup>GPA</sup></sub> <br/>
+<small>GPA</small> <br/>
 **4.5** <br/>
 
 <br/>
@@ -263,13 +302,19 @@ _Russian University of Economics. G.V. Plekhanov, Moscow_ <br/>
 **Courses and trainings**
 
 ✨ _Management of distributed teams_ <br/>
+
 ✨ _Mental health of distributed team members_ <br/>
+
 ✨ _Buyer psychology_ <br/>
+
 ✨ _Marketing in digital business_ <br/>
+
+<br/>
 
 **Languages**
 
 ✨ _Improve my English_ <br/>
+
 
 <br/>
 
