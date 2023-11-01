@@ -120,6 +120,7 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 
 🙏 _We must be responsible and think about the future_ <br/>
 
+<br/>
 
 **What important in projects**
 
@@ -131,6 +132,7 @@ _**Now I aspire to be a leader of a distributed development team and also be a p
 
 🙏 _We must meet business goals, provide a great user experience, and maintain the mental and physical health of team members_ <br/>
 
+<br/>
 
 **What important in code**
 
@@ -266,13 +268,13 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 
 🎓 **Master** degree 
 
-<small>Field of study</small> <br/>
+`Field of study` <br/>
 _Economics of small and medium-sized businesses_ <br/>
 
-<small>University name</small> <br/>
+`University name` <br/>
 [Institute of International Law and Economics. A.S. Griboedova, Moscow](https://www.iile.ru/contacts/) <br/>
 
-<small>GPA</small> <br/>
+`GPA` <br/>
 **4.5** <br/>
 
 
@@ -280,13 +282,13 @@ _Economics of small and medium-sized businesses_ <br/>
 
 🎓 **Bachelor** degree
 
-<small>Field of study</small> <br/>
+`Field of study` <br/>
 _Russian University of Economics. G.V. Plekhanov, Moscow_ <br/>
 
-<small>University name</small> <br/>
+`University name` <br/>
 [Economics and law, Economics of enterprises and organizations](https://www.рэу.рф/education/ob-universitete/kontaktyi) <br/>
 
-<small>GPA</small> <br/>
+`GPA` <br/>
 **4.5** <br/>
 
 <br/>
