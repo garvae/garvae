@@ -14,7 +14,7 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 <br/>
 
-## 💪  Skills
+## 💪  Hard skills
 
 | Group                 | Skills                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | --------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,8 +38,60 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 <br/>
 
+## 💡 Soft skills
 
-## 📑 More about me
+![Leadership Badge](https://img.shields.io/badge/-Leadership-c952c2?style=flat)
+![Communication Badge](https://img.shields.io/badge/-Communication-cf64b7?style=flat)
+![Organization Badge](https://img.shields.io/badge/-Organization-d574ac?style=flat)
+![Making decisions Badge](https://img.shields.io/badge/-Making%20decisions-db83a0?style=flat)
+![Delegation Badge](https://img.shields.io/badge/-Delegation-e29092?style=flat)
+![Conflict resolution Badge](https://img.shields.io/badge/-Conflict%20resolution-d89891?style=flat)
+![Analytical Badge](https://img.shields.io/badge/-Analytical-be989e?style=flat)
+![Planning Badge](https://img.shields.io/badge/-Planning-a398aa?style=flat)
+![Self-development Badge](https://img.shields.io/badge/-Self--development-8696b5?style=flat)
+![Mentoring Badge](https://img.shields.io/badge/-Mentoring-6593bf?style=flat)
+![Adaptability Badge](https://img.shields.io/badge/-Adaptability-b798e2?style=flat)
+![Determination Badge](https://img.shields.io/badge/-Determination-9d83d8?style=flat)
+![Problem-solving Badge](https://img.shields.io/badge/-Problem--solving-856ece?style=flat)
+
+<br/>
+
+## 📑 Download my Resume
+
+<details>
+  <summary>Downloads</summary>
+
+📑 [Resume (main)](link)
+
+📑 [Resume (extended with details)](link)
+
+<br/>
+
+> I hope you, like me, played the [Sinatra song](https://youtu.be/qQzdAsjWGPg?si=V1R3snRA9dFshpLm) 🎵 in your head and sang “MYYYYY WAAAAAY”
+
+
+_I took the first steps in my career in 2013, when I had a break from university and bought a book on the basics of HTML/CSS/JS. Then I just skipped the JS part and made 2 freelance websites using just HTML and CSS. I still don’t understand why customers paid me those sites, those 2 sites were terrible._
+
+_Around `2015`, I began to be interested in graphic design. And since I have always been interested in psychology and marketing, I studied the impact of graphic design on the buyer with particular interest._
+
+_Then in `2019`, I took a course in HTML/CSS/JS and learned the basics of programming more thoroughly._
+
+_In `2020`, I did a few simple freelance projects and then made my first browser extension. This extension allowed you to switch color themes on any website between light and dark modes. I then made my own website, which I currently do not maintain._
+
+_In `2021`, I got a job at an outsourcing company and worked there until October 2023. There were many interesting international projects, various technical stacks, various distributed teams and many interesting ideas that were implemented._
+
+_I have always strived for development and constantly learned new things, diving deeply into all the topics I came across, including management, psychology, design, marketing, front-end, back-end and analytics. I quickly developed into a team leader and constantly accompanied beginning specialists, conducted interviews and code reviews, distributed and delegated tasks._
+
+_**Now I aspire to be a leader of a distributed development team and also be a product manager for an interesting and complex product.**_
+
+<br/>
+
+</details>
+
+
+<br/>
+
+## 📋 More about me
 
 
 [//]: # (🚀 My way)
@@ -288,6 +340,20 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 <br/>
 
 </details>
+
+
+[//]: # (🎵Hobbies and interests)
+<details>
+  <summary>🎵 <b>Hobbies and interests</b></summary>
+
+<br/>
+
+I like to constantly grow, so I have many interests. I love surfing 🏄, I do fitness, I'm interested in science ⚛️, I like to cook 🍔 and explore different cuisines, sometimes I play chess ♟️,  I do psychology 🌌 and study design 🎨.  I care about ecology 🐳 and try to contribute to the preservation of our beloved planet 🌏.  I enjoy learning about different cultures 🗺️ and immersing myself in complex issues in the modern world 🙏.
+
+<br/>
+
+</details>
+
 
 [//]: # (✨ Goals for the future)
 <details>
