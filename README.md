@@ -67,8 +67,6 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 📑 [Resume (extended with details)](https://www.dropbox.com/scl/fi/7m19zq3rs510dwl5tpttd/CV_EXTENDED_Vladimir_Kuzmin_-Vova_Garvae-_2023_2024_compressed.pdf?rlkey=7cm4oa5fz6l3umac52lobu8cq&dl=0)
 
-<br/>
-
 </details>
 
 
