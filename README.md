@@ -367,6 +367,8 @@ I like to constantly grow, so I have many interests. I love surfing 🏄, I do f
 
 ## 📞 Get in touch
 
+<br/>
+
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)][linkedin] <br/>
 [![Facebook Badge](https://img.shields.io/badge/Facebook-0866FF?logo=facebook&logoColor=fff&style=flat)][facebook] <br/>
 [![Telegram Badge](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=fff&style=flat)][telegram] <br/>
@@ -384,7 +386,6 @@ I like to constantly grow, so I have many interests. I love surfing 🏄, I do f
 
 <br/>
 
-<br/>
 
 
 ## 🚀 Mentoring
