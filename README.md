@@ -67,25 +67,6 @@ I am a leading front-end developer and team leader with over 3 years of experien
 
 <br/>
 
-> I hope you, like me, played the [Sinatra song](https://youtu.be/qQzdAsjWGPg?si=V1R3snRA9dFshpLm) 🎵 in your head and sang “MYYYYY WAAAAAY”
-
-
-_I took the first steps in my career in 2013, when I had a break from university and bought a book on the basics of HTML/CSS/JS. Then I just skipped the JS part and made 2 freelance websites using just HTML and CSS. I still don’t understand why customers paid me those sites, those 2 sites were terrible._
-
-_Around `2015`, I began to be interested in graphic design. And since I have always been interested in psychology and marketing, I studied the impact of graphic design on the buyer with particular interest._
-
-_Then in `2019`, I took a course in HTML/CSS/JS and learned the basics of programming more thoroughly._
-
-_In `2020`, I did a few simple freelance projects and then made my first browser extension. This extension allowed you to switch color themes on any website between light and dark modes. I then made my own website, which I currently do not maintain._
-
-_In `2021`, I got a job at an outsourcing company and worked there until October 2023. There were many interesting international projects, various technical stacks, various distributed teams and many interesting ideas that were implemented._
-
-_I have always strived for development and constantly learned new things, diving deeply into all the topics I came across, including management, psychology, design, marketing, front-end, back-end and analytics. I quickly developed into a team leader and constantly accompanied beginning specialists, conducted interviews and code reviews, distributed and delegated tasks._
-
-_**Now I aspire to be a leader of a distributed development team and also be a product manager for an interesting and complex product.**_
-
-<br/>
-
 </details>
 
 
