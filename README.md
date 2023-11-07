@@ -232,7 +232,7 @@ _I just want to note that the [StackOverflow] platform has made a huge contribut
 
 <br/>
 
-**Managment**
+**Management**
 
 🏆 [_Project management in atypical conditions_](https://www.udemy.com/certificate/UC-2ea90f10-8e16-42c4-a498-d9b0c4428918/) <br/>
 
