@@ -10,7 +10,11 @@
 
 <br/>
 
-Highly motivated Front-end Team Lead with **6+ years** of experience. Proven ability to manage distributed teams (up to 4 people) and deliver results across 8+ international projects. Passionate about building high-performing teams, developing innovative products, and mental health advocacy.
+Front-end Engineer since 2017, Team Lead since 2021. I build scalable UIs, lead distributed teams, and deliver across global projects. Passionate about product design, team performance, and mental health advocacy.
+
+<br/>
+
+Connect on [LinkedIn](https://www.linkedin.com/in/garvae/) to see what I’m working on.
 
 <br/>
 
